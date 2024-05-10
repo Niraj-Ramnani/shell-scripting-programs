@@ -1,7 +1,6 @@
 # check given year is leap year or not 
 #!/bin/bash
 
-# Prompt the user to enter a year
 read -p "Enter a year: " year
 
 
