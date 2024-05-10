@@ -14,4 +14,3 @@ then
 else
         echo "There is no profit or loss "
 fi
-~ 
