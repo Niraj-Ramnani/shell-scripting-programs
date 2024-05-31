@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Counter to keep track of the number of months with 31 days printed
+
 count=0
 
 for i in {1..12}; do
