@@ -1,23 +1,18 @@
-# Months with 31 days
 #!/bin/bash
+
+# Counter to keep track of the number of months with 31 days printed
+count=0
+
 for i in {1..12}; do
     case $i in
-        1) echo "January";;
-        2) echo "February";;
-        3) echo "March";;
-        4) echo "April";;
-        5) echo "May";;
-        6) echo "June";;
-        7) echo "July";;
-        8) echo "August";;
-        9) echo "September";;
-        10) echo "October";;
-        11) echo "November";;
-        12) echo "December";;
+        1) echo "January"; ((count++));;
+        3) echo "March"; ((count++));;
+        5) echo "May"; ((count++));;
+        7) echo "July"; ((count++));;
     esac
-   
-    if [ $i -eq 4 ]; then
+
+    # Break the loop after printing the first 4 months with 31 days
+    if [ $count -eq 4 ]; then
         break
     fi
-    (( i ++ ))
 done
