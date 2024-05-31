@@ -5,7 +5,7 @@ In this repository scripting programs asked in LSP lab are discussed
 2 to execute the script write sh <scripname> <br>
             eg sh file.sh
                   or 
-            bash file.sh
+            bash file.sh  <br>
 3 to execute c program make files with extension .c <br>
      to generate compilation file write gcc -o file file.c <br>
      for execution write ./file
