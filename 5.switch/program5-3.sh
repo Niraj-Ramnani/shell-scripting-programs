@@ -11,7 +11,7 @@ for i in {1..12}; do
         7) echo "July"; ((count++));;
     esac
 
-    # Break the loop after printing the first 4 months with 31 days
+  
     if [ $count -eq 4 ]; then
         break
     fi
