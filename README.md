@@ -5,5 +5,5 @@ In this repository scripting programs asked in LSP lab are discussed
 2 to execute the script write sh <scripname> <br>
             eg sh file.sh
 ~author Niraj Ramnani
-![Alt text](lsp.PNG)
 😊 My Linked in ~ [click here]{www.linkedin.com/in/niraj-ramnani}
+<img src="lsp.PNG" alt="LSP Lab" width="400"/>
